@@ -1,0 +1,109 @@
+/* selectors */
+body {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+
+}
+
+h1 {
+    color: honeydew;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200px;
+    padding-bottom: 50px;  
+}
+
+.hbd {
+    position: fixed;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+    font-weight: 300, 400, 600;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: cursive;
+}
+
+hr {
+    border-width: 0.001px;
+    border-color: hsl(215, 51%, 70%);
+    margin-top: 1px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+/* class & id tags */
+.Simon {
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    float: left;
+    width: 25%;
+    margin: 5px auto auto px;
+}
+
+.card-bg {
+    background-color: hsl(216, 50%, 16%);
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    width: 20%;
+}
+
+#clock-image {
+    float: right;
+    position: relative;
+    right: 200px;
+    
+}
+
+#days {
+    /* display: inline; 
+    float: right;*/
+    margin-top: 0;
+}
+
+#Queen{
+    color: hsl(178, 100%, 50%);
+    display: inline;
+    font-size: ;
+    margin-right: 20px;
+    margin-bottom: 1px;
+}
+
+#crown {
+    float: left;
+    margin-right: 0px;
+}
+
+.Lizzy-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.frontend {
+    font-size: 0.7rem;
+}
+
+.love {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+
+h2:hover, .love:hover, a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
